@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * function that prints the sentence
- * Retur: Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
