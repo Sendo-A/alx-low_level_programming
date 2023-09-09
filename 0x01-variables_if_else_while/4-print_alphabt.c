@@ -4,15 +4,19 @@
  *
  * function that prints alphabets in lower case
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
 int main(void)
-{
-	char alph;
 
-	for (alph = 'a'; alph <= 'z'; alph++)
+{
+	int lt = 'a';
+
+	while (lt <= 'z')
 	{
-		putchar(alph);
+		if (lt == 'e' || lt == 'q')
+			lt++;
+		putchar(lt);
+		lt++;
 	}
 	putchar('\n');
 	return (0);
