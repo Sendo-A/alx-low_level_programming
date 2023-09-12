@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Function that print the alphabet in lower cases followed by a new line
+ * print_alphabet function using _putchar to print the alphabet in lower cases
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success).
  */
 
 void print_alphabet(void)
