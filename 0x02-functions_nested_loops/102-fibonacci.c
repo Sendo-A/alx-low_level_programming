@@ -23,7 +23,7 @@ int main(void)
 		if (cnt == 49)
 			printf("\n");
 		else
-			printf(",");
+			printf(", ");
 	}
 
 	return (0);
