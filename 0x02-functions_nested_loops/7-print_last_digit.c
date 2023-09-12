@@ -4,8 +4,9 @@
  *
  * @j: as an input for the function
  *
- * Return: last digit
+ * Return: last number
  */
+
 int print_last_digit(int j)
 {
 	int last_num;
