@@ -7,7 +7,7 @@
 
 void print_alphabet_x10(void)
 {
-	int row. let;
+	int row, let;
 
 	for (row = 0; row <= 9; row++)
 	{
