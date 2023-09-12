@@ -5,7 +5,7 @@
  * @j: as an input for the function
  *
  * Return: last number
- */
+*/
 
 int print_last_digit(int j)
 {
