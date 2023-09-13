@@ -17,8 +17,10 @@ int main(void)
 
 		if (sum > 4000000)
 			break;
+
 		if ((sum % 2) == 0)
 			t_sum += sum;
+
 		fb1 = fb2;
 		fb1 = sum;
 	}
