@@ -31,7 +31,7 @@ int main(void)
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu", kk + (kkk / 1000000000));
-		printf("%lu", kkkk % 1000000000));
+		printf("%lu", kkkk % 1000000000);
 		kk = kk + jj;
 		jj = kk - jj;
 		kkk = kkk + jjj;
