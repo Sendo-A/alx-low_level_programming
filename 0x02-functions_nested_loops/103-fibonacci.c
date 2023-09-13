@@ -23,7 +23,7 @@ int main(void)
 			t_sum += sum;
 
 		fb1 = fb2;
-		fb1 = sum;
+		fb2 = sum;
 	}
 	printf("%.0f\n", t_sum);
 
