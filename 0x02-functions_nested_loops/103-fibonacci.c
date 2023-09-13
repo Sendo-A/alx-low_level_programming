@@ -6,6 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	unsigned long fb1 = 0, fb2 = 1, sum;
