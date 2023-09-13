@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mzin - tests function that prints if integer is positive or negetive
+ * main - tests function that prints if integer is positive or negetive
  * Return: 0
  */
 
