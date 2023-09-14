@@ -6,10 +6,10 @@
  * @a: 1st input
  * @b: 2nd input
  *
- * Return: results
+ * Return: results the outcome
  */
 
-int nul(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
