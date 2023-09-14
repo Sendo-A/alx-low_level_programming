@@ -3,7 +3,7 @@
 
 /**
  * _isupper - checker wether the character is upper or lower
- * 
+ *
  * @c: input param
  *
  * Return: 1 if its uppercase otherwise 0
