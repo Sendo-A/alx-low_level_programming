@@ -17,11 +17,11 @@ int main(void)
 			printf("%d", n);
 		else if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			printf("FizzBuzz");
+			printf(" FizzBuzz");
 		}
 		else if (n % 3 == 0)
 		{
-			print(" Fizz");
+			printf(" Fizz");
 		}
 		else if (n % 5 == 0)
 		{
@@ -29,7 +29,7 @@ int main(void)
 		}
 		else
 		{
-			print(" %d", n);
+			printf(" %d", n);
 		}
 	}
 	printf("\n");
