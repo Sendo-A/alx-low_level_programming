@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int n, k;
 	char rev;
 
-	for (n = 0; s[1] != '\0'; ++n)
+	for (n = 0; s[n] != '\0'; ++n)
 		;
 
 	for (k = 0; k < n / 2; k++)
