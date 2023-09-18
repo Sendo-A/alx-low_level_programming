@@ -6,18 +6,18 @@
  *
  * Return: reversed string
  */
-void rev_string(char *w)
+void rev_string(char *s)
 {
 	int n, k;
 	char rev;
 
-	for (n = 0; w[1] != '\0'; ++n)
+	for (n = 0; s[1] != '\0'; ++n)
 		;
 
 	for (k = 0; k < n / 2; k++)
 	{
 		rev = w[k];
-		w[k] = w[n - 1 - k];
-		w[n - 1 - k] = rev;
+		s[k] = w[n - 1 - k];
+		s[n - 1 - k] = rev;
 	}
 }
