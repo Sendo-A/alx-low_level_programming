@@ -26,5 +26,5 @@ char *cap_string(char *s)
 		}
 		k++;
 	}
-	return (k);
+	return (s);
 }
