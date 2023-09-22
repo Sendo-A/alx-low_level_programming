@@ -13,8 +13,9 @@ int main(void)
 
 	c[2] = 1024;
 	d = &n;
-
+	
 	*(d + 5) = 98;
+
 	printf("c[2] = %d\n", c[2]);
 	return (0);
 }
