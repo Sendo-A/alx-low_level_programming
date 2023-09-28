@@ -13,7 +13,7 @@ int _strlen_recursion(char *s)
 
 	if (*s > '\0')
 	{
-		ncr += strlen_recursion(s + 1) + 1;
+		ncr += _strlen_recursion(s + 1) + 1;
 	}
 	return (ncr);
 }
