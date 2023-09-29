@@ -26,7 +26,7 @@ int last_ndx(char *s)
  */
 int is_palindrome(char *s)
 {
-	int nd = ls_ndx(s);
+	int nd = last_ndx(s);
 
 	return (pal_check(s, 0, nd - 1, nd % 2));
 }
