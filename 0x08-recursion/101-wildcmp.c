@@ -26,7 +26,7 @@ int logos(char *l1, char *l2)
 	if (*l2 == 0)
 		return (0);
 	if (*l1 == *l2)
-		snf += afr(l1 + 1, l2 + 1);
+		snf += wildcmp(l1 + 1, l2 + 1);
 	snf += logos(l1 + 1, l2);
 	return (snf);
 }
@@ -47,7 +47,7 @@ int afr(char *l1, char *l2)
 	{
 		if (!*l1)
 			return (1);
-		return (afr(l1 + 1, *l2 == '*' ? l2 : l2 + 1));
+		return (wildcmp(l1 + 1, *l2 == '*' ? l2 : l2 + 1));
 	}
 	if (!*l1 || !l2)
 		return (0);
@@ -57,7 +57,7 @@ int afr(char *l1, char *l2)
 		if (!*l2)
 			return (1);
 		if (*l1 == *l2)
-			snf += afr(l1 + 1, l2 + 1);
+			snf += wildcmp(l1 + 1, l2 + 1);
 		snf += logos(l1, l2);
 	}
 	return (0);
