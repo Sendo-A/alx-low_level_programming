@@ -41,7 +41,7 @@ int is_palindrome(char *s)
  */
 int pal_check(char *s, int st, int nd, int md)
 {
-	if ((st == nd && md !=) || (st == nd + 1 && md == 0))
+	if ((st == nd && md != 0) || (st == nd + 1 && md == 0))
 		return (1);
 	else if (s[st] != s[nd])
 		return (0);
