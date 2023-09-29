@@ -59,6 +59,7 @@ int wildcmp(char *s1, char *s2)
 		if (*s1 == *s2)
 			snf += wildcmp(s1 + 1, s2 + 1);
 		snf += logos(s1, s2);
+		return (!!snf);
 	}
 	return (0);
 }
