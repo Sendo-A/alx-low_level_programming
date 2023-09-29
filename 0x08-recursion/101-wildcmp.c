@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * last - iterates over *
- * @l2: 2nd string can contain *
+ * @s2: 2nd string can contain *
  *
  * Return: pointer
  */
@@ -14,8 +14,8 @@ char *last(char *s2)
 }
 /**
  * logos - magic
- * @l1: 1st string
- * @l2: 2nd string
+ * @s1: 1st string
+ * @s2: 2nd string
  *
  * Return: 1 if identical otherwise 0
  */
@@ -31,9 +31,9 @@ int logos(char *s1, char *s2)
 	return (snf);
 }
 /**
- * afr - compare two strings
- * @l1: 1s string
- * @l2: 2nd string
+ * wildcmp - compare two strings
+ * @s1: 1s string
+ * @s2: 2nd string
  *
  * Return: 1 if identical otherwise 0
  */
