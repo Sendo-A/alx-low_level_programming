@@ -5,12 +5,12 @@
  *
  * Return: pointer
  */
-char *last(char *l2)
+char *last(char *s2)
 {
-	if (*l2 == '*')
-		return (last(l2 + 1));
+	if (*s2 == '*')
+		return (last(s2 + 1));
 	else
-		return (l2);
+		return (s2);
 }
 /**
  * logos - magic
@@ -19,15 +19,15 @@ char *last(char *l2)
  *
  * Return: 1 if identical otherwise 0
  */
-int logos(char *l1, char *l2)
+int logos(char *s1, char *s2)
 {
 	int snf = 0;
 
-	if (*l2 == 0)
+	if (*s2 == 0)
 		return (0);
-	if (*l1 == *l2)
-		snf += wildcmp(l1 + 1, l2 + 1);
-	snf += logos(l1 + 1, l2);
+	if (*s1 == *s2)
+		snf += wildcmp(s1 + 1, s2 + 1);
+	snf += logos(s1 + 1, s2);
 	return (snf);
 }
 /**
@@ -37,28 +37,28 @@ int logos(char *l1, char *l2)
  *
  * Return: 1 if identical otherwise 0
  */
-int afr(char *l1, char *l2)
+int wildcmp(char *s1, char *s2)
 {
 	int snf = 0;
 
-	if (!*l1 && l2 == '*' && !*last(l2))
+	if (!*s1 && s2 == '*' && !*last(s2))
 		return (1);
-	if (*l1 == *l2)
+	if (*s1 == *s2)
 	{
-		if (!*l1)
+		if (!*s1)
 			return (1);
-		return (wildcmp(l1 + 1, *l2 == '*' ? l2 : l2 + 1));
+		return (wildcmp(s1 + 1, *s2 == '*' ? s2 : s2 + 1));
 	}
-	if (!*l1 || !l2)
+	if (!*s1 || !s2)
 		return (0);
-	if (*l2 == '*')
+	if (*s2 == '*')
 	{
-		l2 = last(l2);
-		if (!*l2)
+		s2 = last(s2);
+		if (!*s2)
 			return (1);
-		if (*l1 == *l2)
-			snf += wildcmp(l1 + 1, l2 + 1);
-		snf += logos(l1, l2);
+		if (*s1 == *s2)
+			snf += wildcmp(s1 + 1, s2 + 1);
+		snf += logos(s1, s2);
 	}
 	return (0);
 }
