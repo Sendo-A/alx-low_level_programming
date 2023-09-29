@@ -46,6 +46,6 @@ int pal_check(char *s, int st, int nd, int md)
 	else if (s[st] != s[nd])
 		return (0);
 	else
-		return (check(s, st + 1, nd - 1, md));
+		return (pal_check(s, st + 1, nd - 1, md));
 }
 
