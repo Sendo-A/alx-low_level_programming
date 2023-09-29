@@ -23,7 +23,7 @@ int logos(char *s1, char *s2)
 {
 	int snf = 0;
 
-	if (*s2 == 0)
+	if (*s1 == 0)
 		return (0);
 	if (*s1 == *s2)
 		snf += wildcmp(s1 + 1, s2 + 1);
