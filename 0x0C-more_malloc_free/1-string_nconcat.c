@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * *string_nconcat - concatenates two strings
  * @s1: pointer first string
@@ -39,4 +39,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	wd[k] = '\0';
 	return (wd);
 }
-
+i
