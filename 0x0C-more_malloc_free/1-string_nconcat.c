@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *string_nconcat - concatenates two strings
- * @s1: pointer first string
+ * string_nconcat - Concatenates two string, taking at most n bytes from s2.
+ * @s1: pointer to first string
  * @s2: pointer to seconde string
  * @n: nbr of bytes
- * Retrun: 0 if it fails
+ * Return: pointer  to the concatenated string or NULL on failure
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -39,4 +39,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	wd[k] = '\0';
 	return (wd);
 }
-i
