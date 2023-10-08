@@ -4,22 +4,22 @@
 /**
  * _print - moves a string one place to the left and prints the string
  * @str: string
- * @k : size
+ * @l : size
  * Return: nothing
  */
 
-void _print(char *str, int k)
+void _print(char *str, int l)
 {
-	int n, m;
+	int i, j;
 
-	n = m = 0;
-	while (n < k)
+	i = j = 0;
+	while (i < l)
 	{
 		if (str[i] != '0')
-			n = 1;
-		if (n || m == k - 1)
-			_putchar(str[n]);
-		n++;
+			j = 1;
+		if (j || j == l - 1)
+			_putchar(str[j]);
+		i++;
 	}
 
 	_putchar('\n');
