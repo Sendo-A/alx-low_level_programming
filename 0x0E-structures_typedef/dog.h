@@ -1,0 +1,19 @@
+#ifndef DOG_H
+#DEFINE DOG_H
+
+/**
+ * struct dog - a dog struct
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: owner's name
+ *
+ * Description: new type struct dog
+ */
+struct dog
+{
+	char *nume;
+	float age;
+	char *owner;
+};
+
+#endif
