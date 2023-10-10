@@ -35,6 +35,7 @@ char *_strcopy(char *dest, char *src)
  * new_dog - function that creates new god
  * @name: name of dog
  * @age: age of dog
+ * @owner: dog owner
  * Return: struct pointer dog otherwise 0
  */
 dog_t *new_dog(char *name, float age, char *owner)
