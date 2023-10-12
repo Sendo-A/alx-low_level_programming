@@ -34,7 +34,7 @@ void format_float(char *separator, va_list ap)
  * @separator: string separator
  * @ap: argument pointer
  */
-void format_string(char *separator, va_lits ap)
+void format_string(char *separator, va_list ap)
 {
 	char *str = va_arg(ap, char *);
 
