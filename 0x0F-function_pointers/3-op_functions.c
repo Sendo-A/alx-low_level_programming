@@ -36,7 +36,8 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 
-/** op_div - divides two int
+/**
+ * op_div - divides two int
  * @a: int
  * @b: int
  * Return: the quotient
@@ -44,10 +45,11 @@ int op_mul(int a, int b)
 
 int op_div(int a, int b)
 {
-	return (a / b)
+	return (a / b);
 }
 
-/** op_mod - module two int
+/**
+ * op_mod - module two int
  * @a: int
  * @b: int
  * Return: the remainder
