@@ -15,9 +15,11 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n == NULL)
 		return (0);
+	
 	va_start(ap, n);
-	while (i--)
-		s += va_arg(ap, int);
+	for 
+		(i =0; i < n; i++)
+			s += va_arg(ap, int);
 	va_end(ap);
 	return (s);
 }
