@@ -3,14 +3,14 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters.
  *
- * @n: number of arguements
+ * @n: number of arguments
  * @...: int sum
  * Return: int sum
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int s = 0, i = n;
+	ins s = 0, i = n;
 	va_list ap;
 
 	if (!n)
