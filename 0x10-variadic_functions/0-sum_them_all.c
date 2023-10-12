@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions_h"
 
 /**
  * sum_them_all - function that returns the sum of all its parameters.
@@ -10,14 +10,13 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int s = 0; 
-	unsigned int i;
+	int s = 0; i = n;
 	va_list ap;
 
-	if (n == 0)
+	if (!n)
 		return (0);
 	va_start(ap, n);
-	for (i = 0; i < n; i++)
+	while (i--)
 		s += va_arg(ap, int);
 	va_end(ap);
 	return (s);
