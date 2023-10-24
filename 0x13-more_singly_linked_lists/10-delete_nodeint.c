@@ -6,6 +6,7 @@
  * @index: index to insert
  * Return: 1 otherwise -1
  */
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *node, *prev_node;
