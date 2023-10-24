@@ -18,7 +18,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 	if (newlist == NULL)
 	{
 		free(list);
-		exist(98);
+		exit(98);
 	}
 	for (i = 0; i < size - 1; i++)
 		newlist[i] = list[i];
