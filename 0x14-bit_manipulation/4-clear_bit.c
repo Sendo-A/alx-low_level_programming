@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_nit - clears the bit at the index
+ * clear_bit - clears the bit at the index
  * @n: the number to index
  * @index: the bit to clear
  *
