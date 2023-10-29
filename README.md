@@ -7,7 +7,7 @@ Welcome and thank you for visitng my repositroy I'm sure it'll be useful to you
 
 This repository contains a series of C programming projects covering various topics and exercises. Each project is organized into its own directory with a name that corresponds to the project's topic. Here's a brief overview of each project:
 
-### [0x00-hello_world](https://github.com/Sendo-A/alx-low_level_programming/tree/master/0x00-hello_world)
+#### [0x00-hello_world](https://github.com/Sendo-A/alx-low_level_programming/tree/master/0x00-hello_world)
 
 This project introduces the basics of C programming. It includes the "Hello, World!" program and covers the compilation and execution of C code.
 
