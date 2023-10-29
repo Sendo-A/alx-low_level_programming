@@ -1,60 +1,92 @@
-# 0x00. C - Hello, World
+# C Programming Projects Repository
 
-For this project, we expect you to look at this concept:
+![c](https://res.cloudinary.com/practicaldev/image/fetch/s--ABZLfRvT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/658zy0pc4w7l3x25s79t.jpg)
 
-C programming
+Welcome and thank you for visitng my repositroy I'm sure it'll be usefull to you
 
-## Resources
+This repository contains a series of C programming projects covering various topics and exercises. Each project is organized into its own directory with a name that corresponds to the project's topic. Here's a brief overview of each project:
 
-Read or watch:
+## 0x00-hello_world(https://github.com/Sendo-A/alx-low_level_programming/tree/master/0x00-hello_world)
 
-- Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
-- Dennis Ritchie
-- "C" Programming Language: Brian Kernighan
-- Why C Programming Is Awesome
-- Learning to program in C part 1
-- Learning to program in C part 2
-- Understanding C program Compilation Process
-- Betty Coding Style
-- Hash-bang under the hood (Look at only after you finish consuming the other resources)
-- Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
-- gcc
-- printf (3)
-- puts
-- putchar
+This project introduces the basics of C programming. It includes the "Hello, World!" program and covers the compilation and execution of C code.
 
-## General
+## 0x01-variables_if_else_while
 
-- Why C programming is awesome
-- Who invented C
-- Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-- What happens when you type gcc main.c
-- What is an entry point
-- What is main
-- How to print text using printf, puts and putchar
-- How to get the size of a specific type using the unary operator sizeof
-- How to compile using gcc
-- What is the default program name when compiling with gcc
-- What is the official C coding style and how to check your code with betty-style
-- How to find the right header to include in your source code when using a standard library function
-- How does the main function influence the return value of the program
+In this project, you'll explore C variables, conditionals (if/else statements), and loops (while loops). You'll practice writing and understanding C code that uses these fundamental programming constructs.
 
-## Requirements
+## 0x02-functions_nested_loops
 
-- C
-- Allowed editors: vi, vim, emacs
-- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-- All your files should end with a new line
-- A README.md file at the root of the repo, containing a description of the repository
-- A README.md file, at the root of the folder of this project, containing a description of the project
-- There should be no errors and no warnings during compilation
-- You are not allowed to use system
-- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+The focus of this project is on C functions and nested loops. You'll learn how to define and call functions and how to use nested loops for various programming tasks.
 
-## Shell Scripts
+## 0x03-debugging
 
-- Allowed editors: vi, vim, emacs
-- All your scripts will be tested on Ubuntu 20.04 LTS
-- All your scripts should be exactly two lines long ($ wc -l file should print 2)
-- All your files should end with a new line
-- The first line of all your files should be exactly #!/bin/bash
+This project covers debugging techniques in C. You'll learn how to identify and fix common programming errors, such as logical and runtime errors, in your code.
+
+## 0x04-more_functions_nested_loops
+
+Building on the previous project, this one dives deeper into functions and nested loops, offering more challenging exercises to enhance your C programming skills.
+
+## 0x05-pointers_arrays_strings
+
+The "Pointers, Arrays, and Strings" project explores the use of pointers in C, along with arrays and string manipulation. You'll work with pointers and learn about C's array and string handling.
+
+## 0x06-pointers_arrays_strings
+
+This project continues to explore pointers, arrays, and strings, offering additional exercises to reinforce your understanding of these concepts.
+
+## 0x07-pointers_arrays_strings
+
+Similar to the previous project, this one delves deeper into pointers, arrays, and strings, presenting more advanced challenges to hone your skills.
+
+## 0x08-recursion
+
+The "Recursion" project introduces the concept of recursive functions in C. You'll learn how to write and use recursive functions to solve various problems.
+
+## 0x09-static_libraries
+
+This project covers the creation and usage of static libraries in C. You'll learn how to compile your own library and link it to your C programs.
+
+## 0x0A-argc_argv
+
+The "argc and argv" project deals with command-line arguments in C. You'll explore how to access and process command-line arguments passed to your programs.
+
+## 0x0B-malloc_free
+
+This project covers dynamic memory allocation using `malloc` and memory deallocation using `free` in C. You'll learn how to allocate and manage memory dynamically.
+
+## 0x0C-more_malloc_free
+
+Building on dynamic memory allocation, this project presents additional memory management exercises, helping you become proficient in memory handling.
+
+## 0x0D-preprocessor
+
+The "Preprocessor" project explains the role of the C preprocessor and how it works. You'll discover how to use preprocessor directives and macros in your C code.
+
+## 0x0E-structures_typedef
+
+This project delves into structures and `typedef` in C. You'll learn how to define and use custom data structures.
+
+## 0x0F-function_pointers
+
+The "Function Pointers" project covers the concept of function pointers in C. You'll understand how to use function pointers for flexibility in your code.
+
+## 0x10-variadic_functions
+
+In the "Variadic Functions" project, you'll explore the use of variadic functions, which allow you to work with a variable number of arguments in C functions.
+
+## 0x12-singly_linked_lists
+
+This project introduces singly linked lists in C. You'll learn how to create, manipulate, and work with linked lists as a fundamental data structure.
+
+## 0x13-more_singly_linked_lists
+
+Building on linked lists, this project offers more advanced challenges and exercises to enhance your understanding and skills in working with linked lists.
+
+## 0x14-bit_manipulation
+
+The "Bit Manipulation" project focuses on manipulating individual bits in C, including tasks like setting, clearing, and checking bits.
+
+Each project directory contains its own README with detailed information, instructions, and examples for the respective project. Feel free to explore and dive into the specific projects that interest you.
+
+Happy coding!
+
