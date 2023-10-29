@@ -1,9 +1,9 @@
 # C Programming Projects Repository
 
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ABZLfRvT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https/thepracticaldev.s3.amazonaws.com/i/658zy0pc4w7l3x25s79t.jpg" width="300" height="200">
 
+![C Programming](<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ABZLfRvT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https/thepracticaldev.s3.amazonaws.com/i/658zy0pc4w7l3x25s79t.jpg" width="300" height="200">)	
 
-Welcome and thank you for visitng my repositroy I'm sure it'll be usefull to you
+Welcome and thank you for visitng my repositroy I'm sure it'll be useful to you
 
 This repository contains a series of C programming projects covering various topics and exercises. Each project is organized into its own directory with a name that corresponds to the project's topic. Here's a brief overview of each project:
 
